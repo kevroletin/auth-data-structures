@@ -139,6 +139,10 @@ module Data.Tree.AVL
 
       -- * For debug
     , showMap
+
+      -- * TODO: Do snowdrop actually need it?
+    , loadAndM
+    , getFreshlyRehashed
     ) where
 
 import Prelude hiding (lookup)
